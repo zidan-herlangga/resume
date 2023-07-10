@@ -1,0 +1,53 @@
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+#toggleButton {
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  /* background-color: #333; */
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+hr {
+  color: #333;
+}
+
+.white-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Tablet */
+@media screen and (max-width: 990px) {
+  /* Colomn 1 */
+  .satu {
+    width: 100%;
+  }
+
+  hr {
+    width: 75%;
+    margin: auto;
+  }
+
+  /* Colomn 2 */
+  .dua {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+  }
+}
